@@ -1,5 +1,3 @@
-import { UserDetailComponent } from './user/detail.component';
-import { UserIndexComponent } from './user/index.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
 import { NgModule } from '@angular/core';
