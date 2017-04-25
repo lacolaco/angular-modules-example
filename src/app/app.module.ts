@@ -1,3 +1,4 @@
+import { SharedModule } from './shared/shared.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -27,10 +28,8 @@ import { UserCardComponent } from './shared/components/user-card/user-card.compo
     BrowserModule,
     FormsModule,
     HttpModule,
-    AppRoutingModule
-  ],
-  providers: [
-    UserService,
+    AppRoutingModule,
+    SharedModule.forRoot(),
   ],
   bootstrap: [AppComponent]
 })
