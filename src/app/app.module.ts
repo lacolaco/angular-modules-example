@@ -20,8 +20,6 @@ import { UserCardComponent } from './shared/components/user-card/user-card.compo
     AppComponent,
     HomeComponent,
     AboutComponent,
-    UserIndexComponent,
-    UserDetailComponent,
     PageContainerComponent,
     UserCardComponent
   ],
