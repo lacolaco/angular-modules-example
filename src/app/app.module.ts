@@ -1,4 +1,3 @@
-import { UserModule } from './user/user.module';
 import { SharedModule } from './shared/shared.module';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -20,7 +19,6 @@ import { AboutComponent } from './about/about.component';
     HttpModule,
     AppRoutingModule,
     SharedModule.forRoot(),
-    UserModule,
   ],
   bootstrap: [AppComponent]
 })

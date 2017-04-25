@@ -15,6 +15,9 @@ const routes: Routes = [
   {
     path: 'about', component: AboutComponent,
   },
+  {
+    path: 'user', loadChildren: './user/user.module#UserModule'
+  }
 ];
 
 @NgModule({
