@@ -1,5 +1,3 @@
-import { AboutComponent } from './about/about.component';
-import { HomeComponent } from './home/home.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
@@ -10,10 +8,10 @@ const routes: Routes = [
     redirectTo: '/home',
   },
   {
-    path: 'home', component: HomeComponent,
+    path: 'home', loadChildren: './home/home.module#HomeModule',
   },
   {
-    path: 'about', component: AboutComponent,
+    path: 'about', loadChildren: './about/about.module#AboutModule',
   },
   {
     path: 'user', loadChildren: './user/user.module#UserModule'
