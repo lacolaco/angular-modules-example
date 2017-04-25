@@ -1,0 +1,3 @@
+<app-page-container [pageTitle]="'User Detail'">
+  <app-user-card *ngIf="user$ | async as user" [user]="user"></app-user-card>
+</app-page-container>

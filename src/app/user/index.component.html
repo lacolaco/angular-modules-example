@@ -1,0 +1,7 @@
+<app-page-container [pageTitle]="'User List'">
+  <ul>
+    <li *ngFor="let user of users">
+      <a [routerLink]="['/user', user.id]">User: {{user.id}}</a>
+    </li>
+  </ul>
+</app-page-container>
