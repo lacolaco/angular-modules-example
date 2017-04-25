@@ -26,7 +26,6 @@ import { UserCardComponent } from './shared/components/user-card/user-card.compo
   ],
   imports: [
     BrowserModule,
-    FormsModule,
     HttpModule,
     AppRoutingModule,
     SharedModule.forRoot(),
